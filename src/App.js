@@ -29,7 +29,7 @@ function App() {
             </Link>
           </div>
           <div>
-            <Link to="/cart">
+            {/* <Link to="/cart">
               Cart
               {cartItems && cartItems.length > 0 && (
                 <span className="badge">{cartItems.length}</span>
@@ -49,18 +49,18 @@ function App() {
               </div>
             ) : (
               <Link to="/signin/">Sign In</Link>
-            )}
+            )} */}
           </div>
         </header>
         <main>
-          <Route path="/product/:id" component={ProductScreen}></Route>
+          {/* <Route path="/product/:id" component={ProductScreen}></Route>
           <Route path="/" component={HomeScreen} exact></Route>
           <Route path="/cart/:id?" component={CartScreen}></Route>
           <Route path="/signin" component={SigninScreen}></Route>
           <Route path="/register" component={RegisterScreen}></Route>
           <Route path="/shipping" component={ShippingAddressScreen}></Route>
           <Route path="/payment" component={PaymentMethodScreen}></Route>
-          <Route path="/placeorder" component={PlaceOrderScreen}></Route>
+          <Route path="/placeorder" component={PlaceOrderScreen}></Route> */}
         </main>
         <footer className="row center">All right reserved</footer>
       </div>
